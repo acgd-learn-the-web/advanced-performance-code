@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'PT Sans';
+  src: url('../fonts/pt_sans-web-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url('../fonts/pt_sans-web-italic.woff') format('woff');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url('../fonts/pt_sans-web-bold.woff') format('woff');
+  font-weight: bold;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.fonts-loaded {
+  font-family: "PT Sans", sans-serif;
+}
